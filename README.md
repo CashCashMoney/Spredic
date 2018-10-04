@@ -8,15 +8,15 @@ Time spent: **?** hours spent in total
 
 The following **required** functionality is completed:
 
-- []
-- [] 
-- [] 
-- [] 
-- [] 
-- [] 
-- [] 
+[] User can log in and log out
+[] Monitor Football games with scores
+[] Notify user of games that are close in the quarter
+[] View football game odds
+[] Create bets using fake currency
+ 
 
 The following **stretch** features are implemented:
+[] Extend to other sports like soccer, basketball, etc.
 
 ## Video Walkthrough
 
