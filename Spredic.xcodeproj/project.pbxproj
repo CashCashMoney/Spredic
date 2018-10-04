@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8DEDCC52166DA0B009A125B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDCC42166DA0B009A125B /* AppDelegate.swift */; };
+		B8DEDCC72166DA0B009A125B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDCC62166DA0B009A125B /* ViewController.swift */; };
+		B8DEDCCA2166DA0B009A125B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DEDCC82166DA0B009A125B /* Main.storyboard */; };
+		B8DEDCCC2166DA0D009A125B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DEDCCB2166DA0D009A125B /* Assets.xcassets */; };
+		B8DEDCCF2166DA0D009A125B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DEDCCD2166DA0D009A125B /* LaunchScreen.storyboard */; };
+		B8DEDCDA2166DA0D009A125B /* SpredicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDCD92166DA0D009A125B /* SpredicTests.swift */; };
+		B8DEDCE52166DA0D009A125B /* SpredicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDCE42166DA0D009A125B /* SpredicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8DEDCD62166DA0D009A125B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8DEDCB92166DA0B009A125B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8DEDCC02166DA0B009A125B;
+			remoteInfo = Spredic;
+		};
+		B8DEDCE12166DA0D009A125B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8DEDCB92166DA0B009A125B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8DEDCC02166DA0B009A125B;
+			remoteInfo = Spredic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8DEDCC12166DA0B009A125B /* Spredic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spredic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DEDCC42166DA0B009A125B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8DEDCC62166DA0B009A125B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8DEDCC92166DA0B009A125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8DEDCCB2166DA0D009A125B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8DEDCCE2166DA0D009A125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8DEDCD02166DA0D009A125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DEDCD52166DA0D009A125B /* SpredicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpredicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DEDCD92166DA0D009A125B /* SpredicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpredicTests.swift; sourceTree = "<group>"; };
+		B8DEDCDB2166DA0D009A125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DEDCE02166DA0D009A125B /* SpredicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpredicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DEDCE42166DA0D009A125B /* SpredicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpredicUITests.swift; sourceTree = "<group>"; };
+		B8DEDCE62166DA0D009A125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8DEDCBE2166DA0B009A125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DEDCD22166DA0D009A125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DEDCDD2166DA0D009A125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8DEDCB82166DA0B009A125B = {
+			isa = PBXGroup;
+			children = (
+				B8DEDCC32166DA0B009A125B /* Spredic */,
+				B8DEDCD82166DA0D009A125B /* SpredicTests */,
+				B8DEDCE32166DA0D009A125B /* SpredicUITests */,
+				B8DEDCC22166DA0B009A125B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8DEDCC22166DA0B009A125B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8DEDCC12166DA0B009A125B /* Spredic.app */,
+				B8DEDCD52166DA0D009A125B /* SpredicTests.xctest */,
+				B8DEDCE02166DA0D009A125B /* SpredicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8DEDCC32166DA0B009A125B /* Spredic */ = {
+			isa = PBXGroup;
+			children = (
+				B8DEDCC42166DA0B009A125B /* AppDelegate.swift */,
+				B8DEDCC62166DA0B009A125B /* ViewController.swift */,
+				B8DEDCC82166DA0B009A125B /* Main.storyboard */,
+				B8DEDCCB2166DA0D009A125B /* Assets.xcassets */,
+				B8DEDCCD2166DA0D009A125B /* LaunchScreen.storyboard */,
+				B8DEDCD02166DA0D009A125B /* Info.plist */,
+			);
+			path = Spredic;
+			sourceTree = "<group>";
+		};
+		B8DEDCD82166DA0D009A125B /* SpredicTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8DEDCD92166DA0D009A125B /* SpredicTests.swift */,
+				B8DEDCDB2166DA0D009A125B /* Info.plist */,
+			);
+			path = SpredicTests;
+			sourceTree = "<group>";
+		};
+		B8DEDCE32166DA0D009A125B /* SpredicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8DEDCE42166DA0D009A125B /* SpredicUITests.swift */,
+				B8DEDCE62166DA0D009A125B /* Info.plist */,
+			);
+			path = SpredicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8DEDCC02166DA0B009A125B /* Spredic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DEDCE92166DA0D009A125B /* Build configuration list for PBXNativeTarget "Spredic" */;
+			buildPhases = (
+				B8DEDCBD2166DA0B009A125B /* Sources */,
+				B8DEDCBE2166DA0B009A125B /* Frameworks */,
+				B8DEDCBF2166DA0B009A125B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spredic;
+			productName = Spredic;
+			productReference = B8DEDCC12166DA0B009A125B /* Spredic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8DEDCD42166DA0D009A125B /* SpredicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DEDCEC2166DA0D009A125B /* Build configuration list for PBXNativeTarget "SpredicTests" */;
+			buildPhases = (
+				B8DEDCD12166DA0D009A125B /* Sources */,
+				B8DEDCD22166DA0D009A125B /* Frameworks */,
+				B8DEDCD32166DA0D009A125B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8DEDCD72166DA0D009A125B /* PBXTargetDependency */,
+			);
+			name = SpredicTests;
+			productName = SpredicTests;
+			productReference = B8DEDCD52166DA0D009A125B /* SpredicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8DEDCDF2166DA0D009A125B /* SpredicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DEDCEF2166DA0D009A125B /* Build configuration list for PBXNativeTarget "SpredicUITests" */;
+			buildPhases = (
+				B8DEDCDC2166DA0D009A125B /* Sources */,
+				B8DEDCDD2166DA0D009A125B /* Frameworks */,
+				B8DEDCDE2166DA0D009A125B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8DEDCE22166DA0D009A125B /* PBXTargetDependency */,
+			);
+			name = SpredicUITests;
+			productName = SpredicUITests;
+			productReference = B8DEDCE02166DA0D009A125B /* SpredicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8DEDCB92166DA0B009A125B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Robert Bolt";
+				TargetAttributes = {
+					B8DEDCC02166DA0B009A125B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B8DEDCD42166DA0D009A125B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B8DEDCC02166DA0B009A125B;
+					};
+					B8DEDCDF2166DA0D009A125B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B8DEDCC02166DA0B009A125B;
+					};
+				};
+			};
+			buildConfigurationList = B8DEDCBC2166DA0B009A125B /* Build configuration list for PBXProject "Spredic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8DEDCB82166DA0B009A125B;
+			productRefGroup = B8DEDCC22166DA0B009A125B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8DEDCC02166DA0B009A125B /* Spredic */,
+				B8DEDCD42166DA0D009A125B /* SpredicTests */,
+				B8DEDCDF2166DA0D009A125B /* SpredicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8DEDCBF2166DA0B009A125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DEDCCF2166DA0D009A125B /* LaunchScreen.storyboard in Resources */,
+				B8DEDCCC2166DA0D009A125B /* Assets.xcassets in Resources */,
+				B8DEDCCA2166DA0B009A125B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DEDCD32166DA0D009A125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DEDCDE2166DA0D009A125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8DEDCBD2166DA0B009A125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DEDCC72166DA0B009A125B /* ViewController.swift in Sources */,
+				B8DEDCC52166DA0B009A125B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DEDCD12166DA0D009A125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DEDCDA2166DA0D009A125B /* SpredicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DEDCDC2166DA0D009A125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DEDCE52166DA0D009A125B /* SpredicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8DEDCD72166DA0D009A125B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8DEDCC02166DA0B009A125B /* Spredic */;
+			targetProxy = B8DEDCD62166DA0D009A125B /* PBXContainerItemProxy */;
+		};
+		B8DEDCE22166DA0D009A125B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8DEDCC02166DA0B009A125B /* Spredic */;
+			targetProxy = B8DEDCE12166DA0D009A125B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8DEDCC82166DA0B009A125B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8DEDCC92166DA0B009A125B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8DEDCCD2166DA0D009A125B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8DEDCCE2166DA0D009A125B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8DEDCE72166DA0D009A125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8DEDCE82166DA0D009A125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8DEDCEA2166DA0D009A125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFMDGEE68W;
+				INFOPLIST_FILE = Spredic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Spredic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8DEDCEB2166DA0D009A125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFMDGEE68W;
+				INFOPLIST_FILE = Spredic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Spredic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8DEDCED2166DA0D009A125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFMDGEE68W;
+				INFOPLIST_FILE = SpredicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.SpredicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spredic.app/Spredic";
+			};
+			name = Debug;
+		};
+		B8DEDCEE2166DA0D009A125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFMDGEE68W;
+				INFOPLIST_FILE = SpredicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.SpredicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spredic.app/Spredic";
+			};
+			name = Release;
+		};
+		B8DEDCF02166DA0D009A125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFMDGEE68W;
+				INFOPLIST_FILE = SpredicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.SpredicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spredic;
+			};
+			name = Debug;
+		};
+		B8DEDCF12166DA0D009A125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFMDGEE68W;
+				INFOPLIST_FILE = SpredicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.SpredicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spredic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8DEDCBC2166DA0B009A125B /* Build configuration list for PBXProject "Spredic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DEDCE72166DA0D009A125B /* Debug */,
+				B8DEDCE82166DA0D009A125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DEDCE92166DA0D009A125B /* Build configuration list for PBXNativeTarget "Spredic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DEDCEA2166DA0D009A125B /* Debug */,
+				B8DEDCEB2166DA0D009A125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DEDCEC2166DA0D009A125B /* Build configuration list for PBXNativeTarget "SpredicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DEDCED2166DA0D009A125B /* Debug */,
+				B8DEDCEE2166DA0D009A125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DEDCEF2166DA0D009A125B /* Build configuration list for PBXNativeTarget "SpredicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DEDCF02166DA0D009A125B /* Debug */,
+				B8DEDCF12166DA0D009A125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8DEDCB92166DA0B009A125B /* Project object */;
+}
