@@ -1,6 +1,6 @@
 *Spredic*
 
-**Spredic** is a sports betting app. The user can use virtual money to bet on teams against other players. The app will also notify users of games that are close in score and about to end. This includes updating the user with the scores and the teams.
+**Spredic** is a food dating application that is similar to Tinder/Bumble. The users will interact with eachother by first swiping on food, then have have the opportunity to swipe on people. 
 
 Time spent: **?** hours spent in total
 
