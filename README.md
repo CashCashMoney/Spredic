@@ -9,10 +9,11 @@ Time spent: **?** hours spent in total
 The following **required** functionality is completed:
 
 - [] User can log in and log out
-- [] Monitor Football games with scores
-- [] Notify user of games that are close in the quarter
-- [] View football game odds
-- [] Create bets using fake currency
+- [] User can swipe right and left on food images
+- [] User can swipe right and left on user profiles
+- [] User has their own profile with a description
+- [] Users are paired based on their swipes
+- [] User can message someone they are paired with
  
 
 The following **stretch** features are implemented:
