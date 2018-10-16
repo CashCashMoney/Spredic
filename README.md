@@ -14,11 +14,12 @@ The following **required** functionality is completed:
 - [] User has their own profile with a description
 - [] Users are paired based on their swipes
 - [] User can message someone they are paired with
- 
+- [] User can create a profile, including uploading images 
+  
 
 The following **stretch** features are implemented:
-- [] Extend to other sports like soccer, basketball, etc.
-
+- [] Extend to include specific gender pairings 
+- [] Include other things besides food
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
