@@ -1,0 +1,6 @@
+framework module Pods_SpredicTests {
+  umbrella header "Pods-SpredicTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
